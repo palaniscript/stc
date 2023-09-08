@@ -1,0 +1,32 @@
+.navbar {
+    height: 4rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 22px;
+    text-decoration: none;
+    color: #000;
+}
+
+li a:hover, li a.active {
+    background-color: #577BFA;
+    color: #fff;
+}
